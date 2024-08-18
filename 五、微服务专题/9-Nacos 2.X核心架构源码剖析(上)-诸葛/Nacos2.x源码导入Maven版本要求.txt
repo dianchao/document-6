@@ -1,0 +1,1 @@
+Nacos2.X的源码包导入idea需要配置更高版本的maven，最好配置maven 3.5.4以上的版本
