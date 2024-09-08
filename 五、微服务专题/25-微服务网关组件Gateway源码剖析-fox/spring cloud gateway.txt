@@ -1,0 +1,27 @@
+gateway源码怎么读（响应式编程）
+
+webflux   reactor  netty
+
+微服务中用到的响应式编程框架：
+rxjava:      ribbon
+reactor:   gateway  webflux  
+
+webflux学习地址： https://vip.tulingxueyuan.cn/search/webflux
+reator:  https://projectreactor.io/docs/core/release/reference/index.html#flux
+
+
+Flux《List》
+Mono 《Object》
+
+webflux   ====> webmvc
+DispatcherHandler
+HandlerMapping        路由匹配
+HandlerAdapter    适配器     RoutePredicateHandlerMapping
+WebHandler
+
+webmvc的流程：
+DispatcherServlet
+
+HandlerMapping        路由匹配
+
+HandlerAdapter    适配器    servlet    controller    @RequestMapping
